@@ -1,6 +1,6 @@
-# MapHelper (V 1.0)
+# More Waypoints (V 1.0)
 
-Этот скрипт может создавать дополнительные метки на карте в игре _SA-MP(R3)_. *Оформление скрипта взято из [FamHelper v3](https://github.com/Revavi/SAMP-scripts/tree/FamHelper)*
+Этот скрипт может создавать дополнительные метки на карте в игре _SA-MP(R3)_.  
 
 _Работает только с помощью **moonloader**_.
 
@@ -8,21 +8,10 @@ _Работает только с помощью **moonloader**_.
  - **Создание меток, изменение их названия и цвета**
 
 В разработке:
- - [**MapHelper**](MapHelper.luac)
+ - [**More Waypoints**](MoreWaypoints.lua)
 
 ## Необходимые библиотеки
 
-Библиотеки для v 1.0:
- - **[requests](https://www.blast.hk/attachments/11724/)**
- - **[imgui](https://www.blast.hk/moonloader/files/misc/moon-imgui-1.1.5.zip)**
- - **[rkeys](https://www.blast.hk/attachments/22515/)**
- - **[samp.lua](https://github.com/THE-FYP/SAMP.Lua/releases/download/v2.3.0/samp-lua-v2.3.0.zip)**
- - **[fAwesome5](https://www.blast.hk/attachments/29620/) + [Шрифт](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf?raw=true)**
- - **[imgui addons](https://www.blast.hk/attachments/22563/)**
-
-[v 1.0] Все библиотеки, кроме **[requests](https://www.blast.hk/attachments/11724/)** скрипт устанавливает сам.
-
-Библиотеки для v 1.1:
  - **[rkeys](https://www.blast.hk/attachments/22515/)**
  - **[mimgui](https://github.com/THE-FYP/mimgui/releases/download/v1.7.0/mimgui-v1.7.0.zip)**
  - **[samp.lua](https://github.com/THE-FYP/SAMP.Lua/releases/download/v2.3.0/samp-lua-v2.3.0.zip)**
@@ -33,7 +22,7 @@ _Работает только с помощью **moonloader**_.
 **НЕ ПУТАЙТЕ MOONLOADER И MODLOADER**
 
 **Скрипт:**
- Скачайте [**MapHelper**](MapHelper.luac) и перенесите его в "**_корневая папка игры_/moonloader**", затем запустите игру. Если вы запускаете этот скрипт впервые, то могут возникнуть ошибки, ведь может нехватать библиотек. Для решения этой проблемы можно просто перезапустить игру. Если что-то вновь пойдёт не так, то напишите разработчику в [**telegram**](https://t.me/SosuPercocet).
+ Скачайте [**More Waypoints**](MoreWaypoints.lua) и перенесите его в "**_корневая папка игры_/moonloader**", затем запустите игру. Если вы запускаете этот скрипт впервые, то могут возникнуть ошибки, ведь может нехватать библиотек. Для решения этой проблемы можно просто перезапустить игру. Если что-то вновь пойдёт не так, то напишите разработчику в [**telegram**](https://t.me/SosuPercocet).
 
 **Библиотеки:**
  Скачайте каждую библиотеку, разархивируйте _(если требуется)_ и перенесите в "**_корневая папка игры_/moonloader/lib**".
@@ -46,7 +35,9 @@ _Работает только с помощью **moonloader**_.
 ## Список изменений
 
 **V 1.0.0 >**
- - Бета-тест  
+ - Бета-тест #1   
 
 **V 1.1.0 (В разработке) >**
  - Релиз
+ - Новое меню
+ - Баг-фикс
